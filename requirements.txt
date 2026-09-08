@@ -1,0 +1,17 @@
+# Web Application & Database
+flask>=2.2.0
+flask-sqlalchemy>=3.0.0
+mysql-connector-python>=8.0.30
+python-dotenv>=1.0.0
+
+# Deep Learning & Computer Vision
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=9.5.0
+numpy>=1.23.0
+
+# Visualization & Utilities
+matplotlib>=3.7.0
+scipy>=1.10.0

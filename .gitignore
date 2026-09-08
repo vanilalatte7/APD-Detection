@@ -1,0 +1,55 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large Video Files & Archives (Kept safe locally on disk, not pushed to GitHub)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Raw & Temporary Folders from Local Machine
+Video\ Project\ 2/
+Video\ Project\ 2.zip
+Pengolahan\ Dataset/
+monitoring/
+
+# Legacy / Redundant files at root only (organized cleanly into models/, docs/, web/, pipeline/, scripts/)
+/import\ cv2.py
+/history.html
+/index.html
+/best\ (8).pt
+/Diagram\ Tanpa\ Judul*
+
+# Environment & Secrets
+.env
+.env.local
+
+# IDE & OS Specific
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Flask auto-generated uploads (keep .gitkeep and sample captures)
+web/static/uploads/cap_*.jpg
+!web/static/uploads/cap_20260209_143010.jpg
+!web/static/uploads/cap_20260209_143023.jpg
+!web/static/uploads/cap_20260209_143030.jpg
